@@ -8,9 +8,12 @@
 
 	    public function indexAction()
 	    {
-	    	$this->view->asset->setMetaDesc('Тест');
-	    	$this->view->asset->setMetaKeys('Тест');
-	    	$this->view->asset->setTitle('Гульсим');
+	    	$this->view->asset->setMetaDesc('Дильманова Гульсим - первая ученица в г.Шымкент от ведущих мастеров мира Мукояма Назым (Япония),
+                        Якова Гершковича (Израиль), ИренаТерауда(Латвия), специализируеться на безоперационной пластике
+                        лица и тела самыми продвинутыми авторскими методиками Naoko, скульптуртурного лифтинг массажа
+                        Якова Гершковича.');
+	    	$this->view->asset->setMetaKeys('Gulsim Dilmanova. Массаж лица и тела');
+	    	$this->view->asset->setTitle('Gulsim Dilmanova');
 	    	$this->view->asset->setCss('/public/style/css/main-slider.css');
 	    	$this->view->asset->setCss('/public/style/css/programs.css');
 	    	$this->view->asset->setCss('/public/style/css/services.css');
