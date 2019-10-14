@@ -1,0 +1,48 @@
+.service{
+    -webkit-box-shadow: 0 0 7px 2px #ebebeb;
+    -moz-box-shadow: 0 0 7px 2px #ebebeb;
+    box-shadow: 0 0 7px 2px #ebebeb;
+}
+.service-title{
+    color: #AECA1F;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.service-list{
+    width: 100%;
+    padding: 10px;
+}
+.service-point{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-name{
+    color: #2A7233;
+    font-weight: bold;
+}
+.service-name i{
+    color: #888;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.service-price{
+    font-size: 17px;
+    color: #6A1B9A;
+}
+.service-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px){
+    .service-name, .service-price{
+        font-size: 14px;
+    }
+    .service-point{
+        flex-wrap: wrap;
+    }
+}
