@@ -31,6 +31,7 @@
 	<? foreach($this->asset->getJs() as $js): ?>
 	<script type="text/javascript" src="<?= $js ?>"></script>
 	<? endforeach ?>
+    <script src="//code.jivosite.com/widget.js" data-jv-id="CU4u7XAoVh" async></script>
 </head>
 <body>
 	<?= $content ?>

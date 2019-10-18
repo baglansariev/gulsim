@@ -7,9 +7,9 @@
             <i class="fab fa-instagram"></i>
             <span>@gulsimdilmanova</span>
         </a>
-        <a href="tel:+77785766626">
+        <a href="tel:+77786696628">
             <i class="fas fa-mobile-alt"></i>
-            <span>+7 (778) 576-66-26</span>
+            <span>+7 (778) 669-66-28</span>
         </a>
         <a href="mailto:dilmanova.gulsim@bk.ru">
             <i class="fas fa-envelope"></i>
